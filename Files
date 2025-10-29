@@ -1,0 +1,4 @@
+mkdir -p .github/workflows scripts site src/app
+touch .github/workflows/build-deploy.yml scripts/init_db.py site/index.html site/styles.css \
+      src/app/__init__.py src/app/db.py src/app/models.py src/app/export_static.py \
+      .gitignore LICENSE pyproject.toml README.md .env.example
